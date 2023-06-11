@@ -52,6 +52,8 @@ const Home = () => {
         { id: crypto.randomUUID(), title: newItem, completed: false},
       ]
     })
+
+    setNewItem("");
   }
 
   console.log(markers);
